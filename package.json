@@ -1,0 +1,22 @@
+{
+  "name": "download-stream",
+  "version": "0.0.1",
+  "description": "create simple download streams",
+  "main": "download-stream.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roryrjb/download-stream"
+  },
+  "keywords": [
+    "get",
+    "download",
+    "stream",
+    "file"
+  ],
+  "author": "Rory Bradford <roryrjb@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roryrjb/download-stream/issues"
+  },
+  "homepage": "https://github.com/roryrjb/download-stream"
+}
