@@ -1,11 +1,14 @@
 {
   "name": "download-stream",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "create simple download streams",
   "main": "download-stream.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/roryrjb/download-stream"
+  },
+  "scripts": {
+    "test": "node test"
   },
   "keywords": [
     "get",
