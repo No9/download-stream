@@ -1,6 +1,6 @@
 {
   "name": "download-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ultra-simple download stream creation",
   "main": "download-stream.js",
   "files": [
