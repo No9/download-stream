@@ -1,6 +1,6 @@
-# download-stream [![Build Status](https://travis-ci.org/roryrjb/download-stream.svg?branch=master)](https://travis-ci.org/roryrjb/download-stream)
+# download-stream [![Build Status](https://travis-ci.org/roryrjb/download-stream.svg?branch=master)](https://travis-ci.org/roryrjb/download-stream) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
-> Create simple download streams.
+> Ultra-simple download stream creation.
 
 ### Installation
 
@@ -16,15 +16,13 @@ $ npm test
 
 ### Usage/API
 
-The module really just serves as a shortcut between the readable stream of Node's `http` module (when requesting a file) and the `fs` module's writable stream.
-
 __Example:__
 
 ```javascript
-var downloadStream = require('download-stream');
+var downloadStream = require('download-stream')
 
 downloadStream('http://www.a-website.com/path/to/a/file.zip')
-  .pipe(toAWritableStream);
+  .pipe(toAWritableStream)
 ```
 
 ### License
